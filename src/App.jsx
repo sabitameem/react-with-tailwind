@@ -13,10 +13,12 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-    <h1 className='text-5xl text-purple-500'>Hello from Tailwind</h1>
+    
     <PriceList></PriceList>
-    <Dashboard></Dashboard>
-    <PhoneBar></PhoneBar>
+    <div className='md:flex gap-6 mt-6'>
+       <Dashboard></Dashboard>
+       <PhoneBar></PhoneBar>
+    </div>
     </div>
   )
 }

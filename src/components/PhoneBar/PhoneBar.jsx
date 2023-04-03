@@ -24,13 +24,16 @@ const PhoneBar = () => {
         })
     },[])
     return (
-        <div>
+        <div className='w-[600px] h-[300px]'>
             
-            <BarChart width={1000} height={500} data={phones}>
-          <Bar dataKey="price" fill="#8884d8" />
-          <XAxis dataKey="name"></XAxis>
-          <YAxis></YAxis>
-        </BarChart>
+           <ResponsiveContainer  width='100%' height='100%'>
+               <BarChart width={800} height={400}
+                data={phones}>
+                    <Bar dataKey="price" fill="#8884d8" />
+                    <XAxis dataKey="name"></XAxis>
+                    <YAxis></YAxis>
+                </BarChart>
+           </ResponsiveContainer>
           
             
             

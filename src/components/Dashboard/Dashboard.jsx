@@ -91,10 +91,10 @@ const Dashboard = () => {
       ];
       
     return (
-        <div>
-            <LineChart
-            width={1000}
-            height={300}
+        <div className='w-[600px] h-[300px]'>
+           <ResponsiveContainer width='100%' height='100%'>
+           <LineChart className='line-chart'
+            width={800} height={400}
             data={myArray}
             >
                 <XAxis dataKey="name" />
@@ -103,6 +103,7 @@ const Dashboard = () => {
                 <Line dataKey="math" ></Line>
                 <Tooltip></Tooltip>
             </LineChart>
+           </ResponsiveContainer>
             
         </div>
     );
