@@ -1,0 +1,41 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 79.99,
+      "features": [
+        "Bluetooth connectivity",
+        "Noise-cancelling technology",
+        "Up to 30 hours of battery life",
+        "Built-in microphone",
+        "Comfortable ear pads",
+        "Foldable design"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Smartwatch",
+      "price": 149.99,
+      "features": [
+        "Heart rate monitor",
+        "Sleep tracking",
+        "Activity tracking",
+        "GPS",
+        "Text and call notifications",
+        "Water-resistant"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Smart Home Speaker",
+      "price": 99.99,
+      "features": [
+        "Voice control with Amazon Alexa",
+        "360-degree sound",
+        "Multi-room audio",
+        "Compatible with smart home devices",
+        "Built-in privacy controls"
+      ]
+    }
+  ]
+  
